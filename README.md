@@ -18,4 +18,15 @@ To get started with Ember for deployment with Vercel, you can use the [Ember CLI
 
 ```shell
 $ npx ember-cli new ember-project
+
+To run the app:
+- nvm use 14.0.0
+- yarn install
+- yarn run start
+
+
+- Git: git add . && git commit -m "C" && git push origin main
+- Vercel: vercel --prod  (this step is not required)
+
+
 ```
